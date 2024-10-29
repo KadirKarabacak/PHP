@@ -90,5 +90,4 @@ PHP (Hypertext Preprocessor) is a server-side programming language that is espec
 - `rand()` Returns a random number. Also we can spesify min and max numbers to generate random number between these two values.
 
 ## If - Else Statements
-
--
+In this section nothing different from other languages.
