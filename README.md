@@ -11,6 +11,12 @@ This repo is all about the learning notes of PHP.
   - [Special Variables \[ $\_GET, $\_POST \]](#special-variables--_get-_post-)
   - [Math Functions](#math-functions)
   - [If - Else Statements](#if---else-statements)
+  - [For Loop](#for-loop)
+  - [Arrays](#arrays)
+  - [Associative Array](#associative-array)
+  - [Isset \& Empty functions](#isset--empty-functions)
+  - [String Functions \[ Methods \]](#string-functions--methods-)
+  - [Validating \& Sanitazing Inputs \[ From Malicious inputs \]](#validating--sanitazing-inputs--from-malicious-inputs-)
 
 ## What is PHP
 
@@ -93,4 +99,64 @@ PHP (Hypertext Preprocessor) is a server-side programming language that is espec
 
 ## If - Else Statements
 
-In this section nothing different from other languages.
+In this section nothing different from other languages. Only the `elseif()` is written like this.
+
+## For Loop
+
+Everything is same only just defining variables is different
+
+```php
+for($i = 0; $i < 5; $i++) {
+  echo"Hello <br>"
+}
+```
+
+## Arrays
+
+To create an array in php is `array()` function which takes values as arguments.
+
+- To push new value to array `array_push()`
+- To remove last value from array `array_pop()`
+- To remove first value from array `array_shift()`
+- To reverse an array `$reversed = array_reverse($anArray)`
+- To get length of an array `$count = count($array);`
+
+## Associative Array
+
+An array made of key-value pairs. We can access the values like `$capitals["Japan"]`
+
+- An associative array is looks like this: ` $capitals = array("USA"=>"Washington D.C", "Japan"=>"Kyoto", "South Korea"=>"Seoul", "India"=>"New Delhi");`
+- Associative arrays can be useful when we hold data like `country->capital, id->userName, item->price` etc.
+
+## Isset & Empty functions
+
+- `isset()` function returns true if a variable is `declared and not null`.
+- `empty()` function returns true if a variable is `not declared, false, null or empty string`.
+- Also in PHP true means 1, false means 0.
+
+## String Functions [ Methods ]
+
+- `strtolower()` returns the given string as lowercase
+- `strtoupper()` returns the given string as uppercase
+- `trim()` returns the given string without speaces it has at start or at end.
+- `str_pad()` pads a string with the certain amount of spesified characters.
+- `str_replace()` allow us to replace a character with different one.
+- `str_rev` reverse the given string
+- `str_shuffle()` shuffles the string randomly.
+- `str_cmp()` allow us to compare a string with another string. If both strings are equal, it returns 0, if not it returns 1.
+- `strlen()` returns the length of a string.
+- `strspos()` returns the position ( index ) of given character.
+- `substr()` allow us the create new string with the given string.
+- `explode()` allow us to create an array with our string with the separating rule.
+- `implode()` takes an array and creates a string with the combining rule.
+
+## Validating & Sanitazing Inputs [ From Malicious inputs ]
+
+To handle malicious input values, we can use `filter_input()` function which takes three arguments. PHP has lot of prebuilt filters for Sanitazing like emails, numbers etc.
+
+- #### Sanitization
+  - First argument is the form method like `filter_input(INPUT_POST, )`
+  - Second argument is the name of the input `filter_input(INPUT_POST, "username", )`
+  - Third argument is the type of filter. There is lot of filters in PHP but to filter special chars we can use `filter_input(INPUT_POST, "username", FILTER_SANITIZE_SPECIAL_CHARS)` filter like this.
+- #### Validation
+  -
