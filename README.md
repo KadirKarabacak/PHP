@@ -1,12 +1,3 @@
-- [PHP](#php)
-  - [Installation](#installation)
-  - [HTML in PHP](#html-in-php)
-  - [Variables](#variables)
-  - [Articmetic Operations \& Operator Precedence](#articmetic-operations--operator-precedence)
-  - [Special Variables \[ $\_GET, $\_POST \]](#special-variables--_get-_post-)
-  - [Math Functions](#math-functions)
-  - [If - Else Statements](#if---else-statements)
-
 # PHP
 
 PHP (Hypertext Preprocessor) is a server-side programming language that is especially designed for web development and is open-source. PHP can be embedded within HTML, making it widely used to create dynamic web pages. It processes code on the server and then sends the resulting HTML to the browser, so users cannot see the PHP code directly.
@@ -15,6 +6,15 @@ PHP (Hypertext Preprocessor) is a server-side programming language that is espec
 - **Database Integration**: PHP easily integrates with databases like MySQL and PostgreSQL, which enables dynamic content management.
 - **Open Source and Free**: PHP is open-source, with strong community support.
 - **Easy to Use**: Compared to many other programming languages, PHP is considered easier to learn and use.
+
+- [PHP](#php)
+  - [Installation](#installation)
+  - [HTML in PHP](#html-in-php)
+  - [Variables](#variables)
+  - [Articmetic Operations \& Operator Precedence](#articmetic-operations--operator-precedence)
+  - [Special Variables \[ $\_GET, $\_POST \]](#special-variables--_get-_post-)
+  - [Math Functions](#math-functions)
+  - [If - Else Statements](#if---else-statements)
 
 ## Installation
 
