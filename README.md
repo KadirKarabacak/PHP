@@ -1,13 +1,9 @@
-# PHP
+# PHP - Learnings
 
-PHP (Hypertext Preprocessor) is a server-side programming language that is especially designed for web development and is open-source. PHP can be embedded within HTML, making it widely used to create dynamic web pages. It processes code on the server and then sends the resulting HTML to the browser, so users cannot see the PHP code directly.
+This repo is all about the learning notes of PHP.
 
-- **Server-Side Execution**: PHP code runs on the server, and only HTML output is sent to the browser.
-- **Database Integration**: PHP easily integrates with databases like MySQL and PostgreSQL, which enables dynamic content management.
-- **Open Source and Free**: PHP is open-source, with strong community support.
-- **Easy to Use**: Compared to many other programming languages, PHP is considered easier to learn and use.
-
-- [PHP](#php)
+- [PHP - Learnings](#php---learnings)
+  - [What is PHP](#what-is-php)
   - [Installation](#installation)
   - [HTML in PHP](#html-in-php)
   - [Variables](#variables)
@@ -15,6 +11,15 @@ PHP (Hypertext Preprocessor) is a server-side programming language that is espec
   - [Special Variables \[ $\_GET, $\_POST \]](#special-variables--_get-_post-)
   - [Math Functions](#math-functions)
   - [If - Else Statements](#if---else-statements)
+
+## What is PHP
+
+PHP (Hypertext Preprocessor) is a server-side programming language that is especially designed for web development and is open-source. PHP can be embedded within HTML, making it widely used to create dynamic web pages. It processes code on the server and then sends the resulting HTML to the browser, so users cannot see the PHP code directly.
+
+- **Server-Side Execution**: PHP code runs on the server, and only HTML output is sent to the browser.
+- **Database Integration**: PHP easily integrates with databases like MySQL and PostgreSQL, which enables dynamic content management.
+- **Open Source and Free**: PHP is open-source, with strong community support.
+- **Easy to Use**: Compared to many other programming languages, PHP is considered easier to learn and use.
 
 ## Installation
 
@@ -87,4 +92,5 @@ PHP (Hypertext Preprocessor) is a server-side programming language that is espec
 - `rand()` Returns a random number. Also we can spesify min and max numbers to generate random number between these two values.
 
 ## If - Else Statements
+
 In this section nothing different from other languages.
