@@ -1,6 +1,3 @@
-# Table of Contents
-
-- [Table of Contents](#table-of-contents)
 - [PHP](#php)
   - [Installation](#installation)
   - [HTML in PHP](#html-in-php)
